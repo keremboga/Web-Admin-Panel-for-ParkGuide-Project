@@ -1,0 +1,22 @@
+.user-dropdown {
+    position: absolute;
+    top: 100%; /* Header'ın hemen altında */
+    right: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1000;
+  }
+  
+  .dropdown-item {
+    padding: 10px 20px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f5f5f5;
+  }
+  

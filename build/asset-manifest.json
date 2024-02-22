@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e9c9f09.css",
+    "main.js": "/static/js/main.9b58f19c.js",
+    "static/js/787.fca58044.chunk.js": "/static/js/787.fca58044.chunk.js",
+    "static/media/logo.png": "/static/media/logo.9605fc1f1d4f6a1cfe60.png",
+    "static/media/logoaraba.png": "/static/media/logoaraba.c675cd6441176e44fa8c.png",
+    "index.html": "/index.html",
+    "main.4e9c9f09.css.map": "/static/css/main.4e9c9f09.css.map",
+    "main.9b58f19c.js.map": "/static/js/main.9b58f19c.js.map",
+    "787.fca58044.chunk.js.map": "/static/js/787.fca58044.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e9c9f09.css",
+    "static/js/main.9b58f19c.js"
+  ]
+}

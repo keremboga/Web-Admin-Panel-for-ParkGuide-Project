@@ -1,0 +1,12 @@
+.dashboard {
+    padding: 20px;
+    min-height: 100vh; /* Tam ekran yüksekliği */
+    color: #333; /* Karanlık metin rengi */
+  }
+  
+  .dashboard h1 {
+    margin-bottom: 20px;
+    
+    color: white; /* Daha koyu metin rengi */
+  }
+  

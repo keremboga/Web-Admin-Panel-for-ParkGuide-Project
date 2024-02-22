@@ -1,0 +1,20 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .layout-body {
+    display: flex;
+    flex: 1;
+  }
+  
+  .layout-content {
+    flex-grow: 1;
+    padding: 20px;
+  /*  background-color: #fff; /* Arka planı beyaz yap */
+    overflow-y: auto; /*İçerik uzunsa kaydırma çubuğu ekle  */
+  }
+    
+
+  

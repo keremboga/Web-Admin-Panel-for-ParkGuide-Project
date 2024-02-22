@@ -1,0 +1,43 @@
+.header {
+   /* background-color: #800080; /* Mor arka plan */
+   /* color: white; */
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header .logo {
+    height: 40px; /* Logo boyutu, ihtiyacınıza göre ayarlayın */
+    margin-right: 10px;
+  }
+
+  .header h1 {
+    margin: 0;
+    flex-grow: 1;
+    text-align: left;
+    font-family: 'Arial', sans-serif; /* Güzel bir font seçimi */
+    font-weight: bold;
+    font-size: 18px; /* Başlık boyutu */
+  }
+  
+  .user-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative; /* Dropdown pozisyonlandırması için */
+  }
+  
+  .user-image {
+    border-radius: 50%; /* Yuvarlak avatar */
+    margin-right: 10px;
+    width: 40px; /* Genişlik */
+    height: 40px; /* Yükseklik */
+    object-fit: cover; /* Resmi kutuya sığdır */
+  }
+  
+  .username {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  

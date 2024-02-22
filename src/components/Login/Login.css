@@ -1,0 +1,45 @@
+.login-container {
+    background-color: #F3F2F7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    background-color: #7D4E9D;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .login-form button:hover {
+    background-color: #9B6DBF;
+  }
+
+  .login-logo {
+    margin-bottom: 0%; /* Logonun altındaki boşluğu ayarlayın */
+    max-width: 600px; /* Logo boyutunu sınırlayın */
+    height: auto; /* Yüksekliği otomatik ayarlayın */
+  }

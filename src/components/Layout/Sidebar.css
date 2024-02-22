@@ -1,0 +1,54 @@
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    width: 250px; /* Kapalıyken menü genişliği */
+    transition: width 0.3s;
+  }
+  
+  .sidebar.open {
+    width: 250px; /* Açıkken menü genişliği */
+  }
+
+  .sidebar.closed {
+    width: 50px; /* Sidebar kapalıyken genişliği */
+    overflow-x: hidden; /* İçeriğin dışarı taşmasını önler */
+  }
+
+  .toggle-btn {
+    width: 50px; 
+    height: 40px;
+    background-color: #383c44; 
+    color: #FFFFFF; 
+    border: none; 
+    padding: 10px 15px; 
+    margin: 0 auto;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, transform 0.3s; 
+    cursor: pointer; 
+
+  }
+
+  .toggle-btn:hover {
+    background-color: #383c44; /* Hover durumunda arka plan rengi */
+    transform: scale(1.05); /* Hover durumunda butonu büyütmek için */
+  }
+
+
+  
+  .menu-item {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu-item.active {
+    background-color: #007bff;
+  }
+  
+ 
+  
